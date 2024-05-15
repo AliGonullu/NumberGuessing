@@ -1,0 +1,25 @@
+#generalDiv {
+    margin: 100px 34% 9% 40%;
+}
+
+#firstHeading {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(236, 87, 0);
+}
+
+#guessButton {
+    margin: 0px 5px 5px 20px;
+}
+
+.generalText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.generalInput {
+    width: 60px;
+    height: 20px;
+
+
+}

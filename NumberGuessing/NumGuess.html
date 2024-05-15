@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="NumGuessSylte.css">
+</head>
+
+<body style="background-color: darkkhaki;">
+
+    <div id="generalDiv">
+        <h1 id="firstHeading">Guess The Number</h1>
+        <br><br>
+        <h2>Boundaries of Interval</h2>
+        <label class="generalText" for="lowerNum">Enter Minimum Value of The Interval : </label>
+        <input class="generalInput" id="lowerNum" type="number" min="0"><br><br>
+        <label class="generalText" for="upperNum">Enter Maximum Value of The Interval : </label>
+        <input class="generalInput" id="upperNum" type="number" min="0"><br>
+        <br><br><br><br>
+        <h2 id="rightToGuess"></h2><br>
+        <label class="generalText" for="userGuess">Enter Your Guess : </label>
+        <input class="generalInput" id="userGuess" type="number" min="0">
+
+        <button class="generalText" id="guessButton" type="submit">Guess It!</button>
+        <br>
+        <p class="generalText" id="result"></p>
+        <br><br>
+        <button class="generalText" id="playAgainButton" disabled>Play Again!</button>
+    </div>
+
+
+
+    <script src="NumGuessScript.js"></script>
+</body>
+
+</html>
